@@ -1,0 +1,30 @@
+{
+    "CLIP": {
+        "n_roi": 148,
+        "num_heads": 4,
+        "layer_sizes": [128, 64, 32],
+        "k": 5
+    },
+    "MOE": {
+        "dim_genetic": 834,
+        "num_experts": 8,
+        "top_k": 2,
+        "num_shared_experts": 1,
+        "expert_intermediate_size": 2368,
+
+        "__comment__": "imported from OG-MoE config",
+        "GE_temperature": 0.07,
+        "norm_topk_prob": true,
+        "cons_alpha": 0.05,
+        "aux_loss_alpha": 0.1
+    },
+    "Train": {
+        "batch_size": 32,
+        "alpha": 1.0,
+        "beta": 0.2,
+        "lr":0.0001,
+        "max_epochs": 10000,
+        "patience": 30,
+        "lr_steps": 2
+    }
+}
