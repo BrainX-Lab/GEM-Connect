@@ -29,7 +29,7 @@
 | `num_experts` | 8 | Number of routed experts |
 | `top_k` | 2 | Number of active routed experts per sample |
 | `num_shared_experts` | 1 | Number of always-active experts <br> Does not take away from `top_k` |
-| `expert_intermediate_size` | 2368 | Hidden layer width of expert MLPs <br> $ (148\times 32)\rightarrow 2368\rightarrow (148\times 32)$ |
+| `expert_intermediate_size` | 2368 | Hidden layer width of expert MLPs <br> $(148\times 32)\rightarrow 2368\rightarrow (148\times 32)$ |
 
 ### Training
 | Field | Value | Usage |
